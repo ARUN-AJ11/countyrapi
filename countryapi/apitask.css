@@ -1,0 +1,114 @@
+.container {
+    text-align: center;
+    margin: auto;
+    width: 50%;
+  }
+  table,
+  th,
+  td,
+  tr {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+img{
+  height: 50px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+#myInput {
+  font-size: 16px;
+  padding: 10px; 
+  border: 1px solid #ddd; 
+  margin-bottom: 12px;
+}
+label{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 25px;
+  font-weight:400;
+  padding: 10px;
+}
+.modal{
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px; 
+  left: 10;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; 
+  background-color: rgba(0,0,0,0.4);
+  
+}
+
+/*Content */
+.content {
+  background-color: #fefefe;
+  border: 1px solid #888;
+  margin-right: 25%;
+  
+  float:right;
+  width: 50%;  
+
+ 
+}
+
+#close {
+  color: #aaaaaa;
+  float: right;
+  margin-right: 10px;
+  font-size: 28px;
+  font-weight: bold;
+
+}
+
+#close:hover {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#countryname{
+
+  text-align: centers;
+  margin-left: 250px;
+}
+#capitalname{
+
+  text-align: centers;
+  margin-left: 250px;
+}
+#population{
+  text-align: centers;
+  margin-left: 250px;
+}
+#flag{
+  margin-left:10px ;
+  height: 80px;
+}
+#latitude{
+  text-align: centers;
+  margin-left: 250px;
+}
+#longitude{
+  text-align: centers;
+  margin-left: 250px;
+}
+.heading{
+  text-decoration:underline;
+  margin-left: 15px;
+}
+#currencyname{
+  text-align: centers;
+  margin-left: 250px;
+}
+#currencysymbol{
+  text-align: centers;
+  margin-left: 250px;
+}
+.flagname{
+  margin-left: 250px;
+  margin-bottom: 180px;
+  font-weight:bold;
+}

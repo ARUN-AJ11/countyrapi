@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Country List</title>
+  <link rel="stylesheet" href="apitask.css">
+  <script defer src="apitask.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <h1>List of countries</h1>
+
+    <label>Search Countries :</label><input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search Here"">
+    <table>
+      <thead>
+      <tr>
+        <th>S.No</th>
+        <th>Country</th>
+        <th>capital</th>
+        <th>Population</th>
+        <th>Flag</th>
+      </tr>
+      </thead>
+      <tbody id="demo"></tbody>
+    </table>
+  </div>
+  <div id="button" class="modal">
+    <div class="content">
+      <div id="close">× </div>
+      <h1 class="heading">Country Details</h1>
+      <h3 id="countryname"></h3>
+      <h3 id="capitalname"></h3>
+      <h3 id="population"></h3>
+      <div> <span class="flagname">Flag:</span> <img id="flag" alt="flag image"></div>
+      <h3 id="latitude"></h3>
+      <h3 id="longitude"></h3>
+      <h3 id="currencyname"></h3>
+      <h3 id="currencysymbol"></h3>
+
+    </div>
+
+  </div>
+</body>
+
+</html>
